@@ -5,7 +5,7 @@ RSPFILE=response
 
 rm -f $RSPFILE
 mkfifo $RSPFILE
-
+ 
 get_api() {
 	read line
 	echo $line
